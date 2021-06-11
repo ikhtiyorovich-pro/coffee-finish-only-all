@@ -1,0 +1,173 @@
+/* site-main */
+
+.about-main-wrapper-item {
+	width: 1280px;
+	height: 450px;
+	background-image: url(../images/about-backround-img.png);
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.site-big-name {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 48px;
+	color: white;
+}
+.site-little-name {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fefcf7;
+}
+.site-main-item {
+	width: 445px;
+	height: 176px;
+	list-style: none;
+	padding-top: 10%;
+	padding-left: 20px;
+}
+
+/*first-bottom-main */
+
+.main-wrapper-item {
+	width: 1110px;
+	height: 420px;
+	display: flex;
+	margin: auto;
+	margin-top: 180px;
+	margin-bottom: 300px;
+}
+.main-wrapper .main-wrapper-item::before {
+	content: url(../images/waiter.png);
+}
+.main-item {
+	width: 540px;
+	height: 340px;
+	list-style: none;
+	margin: auto 0;
+	margin-left: 200px;
+}
+.site-main-name {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 48px;
+	color: #333d4b;
+}
+
+.main-little-palagroph {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	width: 540px;
+	height: 260px;
+}
+
+/* second-main-bottom */
+
+.all-main-wrapper .main-wrapper-item {
+	width: 1280px;
+	height: 474px;
+	color: white;
+	padding-left: 100px;
+	padding-top: 3%;
+	background-color: #2c343e;
+	border-radius: 10px;
+}
+.all-main-item {
+	width: 540px;
+	height: 210px;
+	list-style: none;
+}
+.all-main-little-palagroph {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	width: 540px;
+	height: 130px;
+}
+.all-main-little-palagroph::before {
+	width: 445px;
+	height: 475px;
+	content: url(../images/coffee.png);
+	position: absolute;
+	margin-left: 640px;
+	margin-top: -300px;
+}
+/* third-main-bottom */
+.site-main-name {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 48px;
+}
+.bottom-main-wrapper-item-second {
+	width: 285px;
+	height: 167px;
+	display: flex;
+	list-style: none;
+}
+.bottom-main-wrapper-item-second:nth-child(0) {
+	content: url(../images/Combined-Shape1.svg);
+}
+
+.bottom-main-wrapper {
+	width: 1045px;
+	height: 366px;
+	margin: auto;
+}
+.bottom-main-wrapper-items {
+	text-decoration: none;
+	color: #7b6464;
+	list-style: none;
+	list-style: none;
+	padding-right: 200px;
+}
+.bottom-main-wrapper-items-heading{
+	list-style: none;
+}
+.bottom-main-wrapper-items::before{
+	content: url(../../images/kok-karta1.png);
+}
+.bottom-main-wrapper-items + .bottom-main-wrapper-items::before{
+	content: url(../../images/kok-karta2.png);
+}
+.bottom-main-wrapper-items + .bottom-main-wrapper-items + .bottom-main-wrapper-items::before{
+	content: url(../../images/kok-karta3.png);
+}
+.site-main-name-one {
+	font-family: Fraunces, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 48px;
+}
+.links-main-bottom-one {
+	text-decoration: none;
+	color: #83888f;
+}
+.links-main-bottom {
+	width: 272px;
+	text-decoration: none;
+	color: #333d4b;
+}
+.links-main-bottom-links {
+	font-family: Barlow, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	width: 272px;
+	text-decoration: none;
+	color: #333d4b;
+}

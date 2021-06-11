@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.links {
+	color: white;
+	text-decoration: none;
+}
+.site-main-name .links {
+	color: #333d4b;
+}
+.main-little-palagroph .links {
+	color: #333d4b;
+}
+/* header */
+
+.about_header_wrapper_item {
+	padding: 0;
+}
+.site-header-logo {
+	list-style: none;
+}
+
+.about_header_wrapper {
+	width: 1280px;
+	display: flex;
+	margin: auto;
+	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.site-header-links {
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	text-decoration: none;
+	color: #83888f;
+}
+.about-links {
+	padding-left: 30px;
+}
